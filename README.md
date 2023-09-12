@@ -15,4 +15,6 @@
   <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat&logo=ApacheTomcat&logoColor=white" />
 </div>
 <h2>📋 ERD</h2>
-<img src="https://github.com/vananaHope/JanJan/assets/125250099/15418ef2-1ce9-4698-94ee-a32b852b5f2a">
+<div>
+  <img src="https://github.com/vananaHope/JanJan/assets/125250099/15418ef2-1ce9-4698-94ee-a32b852b5f2a">
+</div>
