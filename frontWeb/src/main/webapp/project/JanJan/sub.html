@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <title>잔잔</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <!--gnb-->
+            <div class="inner">
+                <div class="gnb">
+                    <div class="gnbL">
+                        <ul>
+                            <li><a href="index.jsp"><img src="./img/logo.png" class="logo"></a></li>
+                            <li><a href="sub.html">구독</a></li>
+                            <li><a href="store.jsp">스토어</a></li>
+                        </ul>
+                    </div>
+                    <div class="gnbR">
+                        <ul>
+                            <li><a href="login.jsp">로그인/회원가입</a></li>
+                            <li><a href="bag.jsp"><img src="./img/bag.png" class="bag"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="inner">
+            <section class="sub"><!--여기에 콘텐츠 넣으시면 됩니다.-->
+                <h1 class="title">매월 전통주와 안주의<br> 환상적인 조합을 맛볼 수 있는 기회</h1>
+                <div class="subInner">
+                    <div class="selectBox">
+                            <button class="aloneBox" type="button" onclick="chPk()" id="aloneBox">
+                                <div class="subBg"><img src="./img/alone.png"></div>
+                                <div class="packInfo">
+                                    <h1>나홀로 잔잔박스</h1>
+                                    <h2>￦ 32,000/월</h2>
+                                    <p>1인 ~ 2인이 즐길 수 있는 양의 술과 안주  </p>
+                                </div>
+                            </button>
+       
+         
+                            <button class="partyBox" type="button" onclick="chPk2()" id="partyBox">
+                                <div class="subBg"><img src="./img/with.png" alt=""></div>
+                                <div class="packInfo">
+                                    <h1>다같이 잔잔박스</h1>
+                                    <h2>￦ 52,000/월</h2>
+                                    <p>3인 ~ 4인이 즐길 수 있는 양의 술과 안주  </p>
+                                </div>
+                            </button>
+                    </div>
+                    <div class="packCh">
+                        <input onclick="selPk()" type="button" id="selectPk" value="이 패키지로 할게요"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./js/sub.js"></script>
+</body>
+</html>

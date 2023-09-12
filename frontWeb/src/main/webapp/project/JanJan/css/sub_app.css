@@ -1,0 +1,176 @@
+.sub_top{
+	font-weight: bold;
+	border-bottom: solid 1px rgb(212, 210, 210);
+}
+.box01{
+	margin-top: 3%;
+	float: left;
+	height: 740px;
+	border : solid 1px rgb(212, 210, 210);
+	border-radius: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+.info_title{
+	font-weight: bold;
+	border-bottom: solid 1px rgb(212, 210, 210);
+	padding-bottom: 15px;
+}
+.sub_img{
+	margin-top: 30px;
+}
+.name{
+	font-weight: bold;
+	padding: 0px 10px 10px 0px;
+}
+.cnt{
+	font-weight: bold;
+	float: left;
+}
+.pay{
+	font-weight: bold;
+	float: right;
+}
+.day{
+	margin-top: 70px;
+	border-top: solid 1px rgb(212, 210, 210);
+	padding-top: 20px;
+}
+.day_p{
+	margin-top: 5px;
+	font-weight: bold;
+}
+.box02{
+	margin-top: 3%;
+	margin-left : 27px;
+	float: left;
+	width : 400px;
+	height: 650px;
+	border : solid 1px rgb(212, 210, 210);
+	border-radius: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+.in_p{
+	margin-top : 30px;
+	font-weight: bold;
+	color : #707070;
+}
+.in_p2{
+	margin-top : 15px;
+	font-weight: bold;
+	color : #707070;
+}
+.in_box{
+	width: 400px;
+	height: 50px;
+	border-radius: 3px;
+	border: solid 1px #B2B2B2;
+	margin-top: 10px;
+	font-weight: bold;
+	color : #707070;
+}
+.in_box2{
+	width: 400px;
+	height: 150px;
+	border-radius: 3px;
+	border: solid 1px #B2B2B2;
+	margin-top: 10px;
+	font-weight: bold;
+	color : #707070;
+}
+.del_check{
+	margin-top: 30px;
+	color: #707070;
+}
+.del_btu{
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+	width: 400px;
+	height: 50px;
+	font-weight: bold;
+	border: none;
+	background-color:#4D9BF9;
+	border-radius: 3px;
+}
+.box03{
+	margin-top: 3%;
+	float: right;
+	width : 400px;
+	height: 650px;
+	border : solid 1px rgb(212, 210, 210);
+	border-radius: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+.btu_pay{
+	margin-top : 20px;
+}
+.btu_pay1{
+	width: 100px;
+	height : 45px;
+	float: left;
+	border-radius: 3px;
+	border: solid 1px #B2B2B2;
+	background-color:white;
+}
+.btu_pay1 :active{
+	border: solid 1px #4D9BF9;
+	background-color:#4D9BF9;
+	color: white;
+	font-weight: bold;
+}
+.btu_pay2{
+	width: 100px;
+	height : 45px;
+	margin-left: 55px;
+	border-radius: 3px;
+	border: solid 1px #B2B2B2;
+	background-color:white;
+}
+.btu_pay2 :active{
+	border: solid 1px #4D9BF9;
+	background-color:#4D9BF9;
+	color: white;
+	font-weight: bold;
+}
+.btu_pay3{
+	width: 100px;
+	height : 45px;
+	float: right;
+	border-radius: 3px;
+	border: solid 1px #B2B2B2;
+	background-color:white;
+}
+.btu_pay3 :active{
+	border: solid 1px #4D9BF9;
+	background-color:#4D9BF9;
+	color: white;
+	font-weight: bold;
+}
+.tab{
+	margin-top: 20px;
+}
+.left_p{
+	float: left;
+}
+.rigth_p{
+	float: right;
+	font-weight: bold;
+}
+.left_p_b{
+	float: left;
+	font-weight: bold;
+}
+.rigth_p_b{
+	float: right;
+	font-weight: bold;
+}
+.agree_check{
+	margin-top: 100px;
+	color: #707070;
+}

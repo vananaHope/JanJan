@@ -1,0 +1,62 @@
+.bagInner{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom:150px;
+}
+.bagInner h1{
+    width: 200px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.bagInner h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.prod{display: flex;}
+.prod p{margin-bottom: 20px; margin-left: 3px;}
+.prodCh{
+    margin-bottom: 20px;
+}
+.bill{
+    margin-bottom: 10px;
+    width: 480px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.bill input{
+    margin-bottom: 4px;
+    border: none;
+    background-color: white; 
+    color: black;
+    font-size: 23px; 
+    font-weight: 900;
+} 
+.price{margin-left: 300px;}
+.deliveryPrice{margin-left: 335px;}
+.tot{padding-left: 20px; display: flex;}
+.totPrice{padding-left: 340px;}
+.payInfoProd{display: flex;}
+
+.payInfoDeli{display: flex; padding-top: 15px; padding-bottom: 5px;}
+.payInfoTot{display: flex; padding-top: 5px;}
+.payTot{padding-left: 340px;}
+.payTot2{padding-left: 322px;}
+.done input{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+    width: 480px; 
+    height: 60px; 
+    background-color: #4D9BF9;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}

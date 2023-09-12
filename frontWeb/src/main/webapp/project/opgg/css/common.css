@@ -1,0 +1,116 @@
+@import './reset.css';
+:root { --color-key : #5383E8; --color-sub: #28344E; --mid-navy: #202D37; --lightgrey:#9AA4AF; } 
+body { font-family: nLight; overflow-x: hidden; } 
+section { width: 1080px; margin: auto; } 
+.home { background-color: #5383E8; }
+/* -------------- header ---------------------------- */
+header { width: 100%; } 
+
+.gnbTop { position: relative; display: flex; align-items: center; width: 100%; height: 40px; background-color: var(--color-sub); } 
+
+.gnbTop a { font-size: 12px; color: #C3CBD1; } 
+
+.gnbTop .topLogo { display: flex; justify-content: center; align-items: center; width: 98px; height: 40px; background-color: var(--color-key); } 
+
+.gnbTop .topLogo img { width: 65px; height: 16px; } 
+
+.gnbTop .gameList { display: flex; align-items: center; width: 80%; } 
+.gnbTop .gameList li { height: 100%; } 
+.gnbTop .gameList li a { display: flex; align-items: center; height: 32px; margin: 4px; padding: 0 8px; font-size: 12px; } 
+.gnbTop .gameList li a span { margin-left: 8px;}
+
+.gnbTop .gameList li .keyTxt { display: inline-block; width: 16px; height: 16px; border-radius: 50%; font-weight: 700; font-size: 12px; text-align: center; color: var(--color-sub); background-color: #FFB900; } 
+
+.gnbTop .gameList li img { width: 24px; height: 24px; } 
+
+.gnbTop .gameList li:first-child { background-color: var(--color-key); } 
+.gnbTop .gameList li:first-child a { color: #fff; } 
+
+.gnbTop .gnbBtn { width: 24px; height: 24px; border: none; padding: 0; } 
+.gnbTop .btnFaq { background: url(https://s-lol-web.op.gg/images/icon/feedback.svg); } 
+
+.mode { margin-left: 8px; background: url(https://s-lol-web.op.gg/images/icon/icon-darkmode.svg); } 
+.gnbTop .lang { display: flex; margin-left: 8px;}
+.gnbTop .lang img { width: 24px; height: 24px; margin-right: 8px; }
+
+.langDrop { width: 80%; position: relative; display: inline-block; vertical-align: middle; } 
+.langDrop select { width: 100%; background-color: transparent; color: #9AA4AF; font-size: 12px; font-family: nRegular; padding: .5em; padding-right: 2.5em; border: 0; margin: 0; border-radius: 5px; text-indent: 0.01px; text-overflow: ''; appearance: none; cursor: pointer; } 
+
+.langDrop::before,
+.langDrop::after { content: ""; position: absolute; pointer-events: none; } 
+.langDrop::after { content: "\25BC"; height: 1em; font-size: .625em; color: #C3CBD1; line-height: 1; right: 1.2em; top: 50%; margin-top: -.5em; } 
+.langDrop::before { width: 2em; right: 0; top: 0; bottom: 0; border-radius: 0 5px 5px 0; } 
+
+.gnbTop #login { display: inline-block; padding: 4px 16px; margin: 0 16px; color: #fff; background-color: var(--color-key); border-radius: 4px; line-height: 18px; } 
+
+/* ------------------ */
+.gnbBottom { display: flex; justify-content: center; background-color: var(--color-key); } 
+.gnbBottom nav { display: flex; justify-content: flex-start; align-items: center; width: 1080px; height: 50px; } 
+.gnbBottom ul { display: flex; align-items: center; height: 100%; } 
+.gnbBottom li { margin-left: 24px; } 
+.gnbBottom li:hover a { color: #fff; } 
+.gnbBottom li:first-child { margin-left: 0; } 
+.gnbBottom li a { position: relative; display: inline-block; height: 100%; font-size: 15px; color: #C3CBD1; } 
+.gnbBottom li a::after { content: ''; position: absolute; height: 3px; width: 0; transform: translateX(-50%); left: 50%; bottom: -115%; transition: .25s ease-out; background-color: #fff; } 
+.gnbBottom li a:hover:after { width: 100%; } 
+
+.bannerTop { width: 100%; background-color: #FFB900; } 
+.bannerTop a { display: block; margin: 0 auto; width: 1080px; text-align: left; font-size: 14px; line-height: 40px; color: var(--mid-navy); } 
+.bannerTop a:hover { text-decoration: underline; } 
+
+/* -------------------------------- */
+.mainSch { display: flex; flex-direction: column; align-items: center; }
+.mainSch .mainLogo { display: inline-block;  margin: 80px auto 50px auto; max-height: 190px;}
+
+.regionAll { padding: 0 8px 0 32px; margin-right: 8px;}
+.regionDrop { width: 80%; position: relative; display: inline-block; vertical-align: middle; } 
+.regionDrop select { width: 100%; background-color: transparent; color: #9AA4AF; font-size: 14px; padding-right: 2.5em; border: 0; margin: 0; border-radius: 5px; text-indent: 0.01px; text-overflow: ''; appearance: none; cursor: pointer; } 
+
+.regionDrop::before,
+.regionDrop::after { content: ""; position: absolute; pointer-events: none; } 
+.regionDrop::after { content: "\25BC"; height: 1em; font-size: .625em; color: rgba(0, 0, 0, 0.644); line-height: 1; right: 1.2em; top: 50%; margin-top: -.5em; } 
+.regionDrop::before { width: 2em; right: 0; top: 0; bottom: 0; border-radius: 0 5px 5px 0; } 
+
+.mainSch .schBox { display: flex; align-items: center; margin-bottom: 20px; width: 800px;  height: 60px;  border-radius: 30px; text-align: left; background: #fff; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19); }
+
+.mainSch .schBox .boxAll { width: 100%; display: flex; justify-content: space-around; align-items: center;}
+.boxAll label { display: block; font-size: 12px; line-height: 16px; font-family: nBold; }
+.boxAll .inputBox { width: 480px; }
+.boxAll .inputBox input { font-size: 14px; width: 100%; line-height: 20px; }
+
+.mainSch button[type=submit] { width: 60px; height: 42px; margin: 0 24px 0 12px; background: url(../source/schBtn.svg) center center no-repeat; background-size: 42px; background-position: 12px; border: none; cursor: pointer;}
+
+.download { display: inline-flex; align-items: center; margin-top: 30px; padding: 0 16px; height: 40px; line-height: 40px; color: #fff; background-color: var(--color-sub); border-radius: 4px; font-size: 12px; text-align: center;}
+.download img { margin-right: 8px; }
+
+/* ------------------------------------------------------ */
+.talkRankAll { min-height: 405px; margin: 60px auto; background-color: #fff; border-radius: 5px;  }
+.talkRankAll h3 a { display: block; padding: 17px 0 16px 20px; line-height: 17px; font-size: 15px; color: var(--mid-navy); font-family: nBold; letter-spacing: -1px; }
+.talkRankBox { display: flex; flex-flow: column wrap; height: 405px; padding-bottom: 13px;  }
+
+.postPre { display: flex; align-items: center; width: 45%; padding: 12px 0; margin: 0 12px; border-bottom: 1px solid #dcdfe3; transition: all .2s; cursor: pointer;}
+.postPre:nth-child(5n+0) { border: none;}
+.postPre:hover { background-color: #f0f0f0;}
+.postPre:hover .postInfo span:first-child { color: var(--color-key); text-decoration: underline; }
+
+.postPre .rankNum { width: 55px; text-align: center; font-size: 18px; font-style: oblique; font-family: nBold; color: var(--mid-navy);}
+.postPre img { width: 100px; height: 56px;}
+.postPre .postInfo { padding: 0 20px; overflow: hidden; }
+.postPre .postInfo span { font-size: 14px;}
+.postPre .postInfo p { margin-top: 6px; line-height: 15px; font-size: 13px; color: #879292;}
+.postPre .postInfo .comment { margin-left: 4px; color: var(--color-key); font-family: nMedium; }
+
+/* ------------------------footer----------------- */
+.aligndiv { padding: 40px 0; display:flex; align-content:center; height:100% }
+.aligndiv div { padding: 0 20px;}
+.aligndiv a { display:flex; align-self:flex-start; }
+
+.footerBox{ font-size:14px; color: #fff; }
+.footerList dt { font-family: nBold; color:#fff; padding-bottom:20px; height:20; width:120; }
+.footerList dd a {  display:block; width:140px;color:#fff; padding-bottom:10px;}
+
+.footerCopyrightText{ display: inline-block;  width: 950px; color:#fff; font-size:12px; padding:10px; line-height: 120%;}
+.footSns { float: right; margin: 10px 0; }
+.footSns img { margin-left: 5px;}
+
+.footBottom { padding: 20px 10px 40px 0; border-top: 1px solid #fff;}
